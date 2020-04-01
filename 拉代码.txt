@@ -1,0 +1,9 @@
+soda拉代码地址:repo init --no-repo-verify -u ssh://工号@192.168.33.209:29418/manifest -b green -m demo/Snapdragon_Mid_2020.SPF.1.0-dev.xml
+编译指令：./build.sh dist -j8 2>&1 | tee build_make.log
+平台信息：6115 && 4250
+===========================================================================================================================================
+Android Q上开始支持QSSI。
+QSSI 是用来编译system.img的
+QSSI编译注意事项
+    lunch qssi ------ 编译system.img
+    lunch target ------ 编译其余的image
